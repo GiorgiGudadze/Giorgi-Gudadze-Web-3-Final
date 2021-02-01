@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.modalCnt {
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.modalInput {
+    display: block;
+}
+
+.cancelBtn {
+    margin-top: 10px;
+    background-color: #9ec862;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.saveBtn {
+    margin-top: 10px;
+    background-color: #022642;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.modalX {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    color: red;
+    width: 5px;
+    height: 5px;
+}
+
+.weatherCnt:hover .modalX {
+    display: block;
+}
+
+.weatherCnt {
+    max-width: 50px;
+    margin: 20px;
+    position: relative;
+}
